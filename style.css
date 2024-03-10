@@ -1,0 +1,182 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    background-color: #07111a;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    height: 4rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.item{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+button{
+    color: white;
+    background-color: rgb(74, 18, 74);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    height: auto;
+    text-align: center;
+    border-radius: 0.3rem;
+    border-color: none;
+    
+}
+main{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   gap: 0;
+}
+.need{
+    font-size: 2.5em;
+    margin:0 0 0 0;
+}
+.web{
+    margin:0 0 0 0;
+    color: #15b572;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+}
+p{
+    padding:0.5rem 0 0.5rem 0;
+    margin:0 0 0 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.button-main{
+    margin-top: 3rem;
+    background-color:#15b572;
+    width: 10rem;
+    height:3rem;
+    font-family:sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 4px 4px 12px white;
+    border-style: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    justify-content: center;
+}
+
+@media (max-width:786px){
+    .logo-div{
+        
+        display: flex;
+        align-items:flex-end;
+       
+        justify-content:center;
+        gap:1rem;
+        margin-right: 0.5rem;
+    }
+    .content{
+        text-align: center;
+        font-size: 2rem;
+        margin:1rem 1rem 1rem 1rem;
+       
+    }
+    .anime{
+      padding-right: 0;
+      padding-left: 1rem;
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.web:hover{
+   
+    transform: scaleY(1.2);
+}
+.item2:hover{
+    text-shadow:5px 5px 18px white;
+}
+.about-me{
+    
+    text-align: center;
+    font-size: 1.5em;
+   
+    color: #15b572;
+}
+
+.about-inner{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 4rem;
+    
+}
+.about-content{
+    width:40%;
+    margin-right: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.table{
+    color: green;
+    font-size: 1.4rem;
+}
+p{
+    transition: 0.2 ease-in;
+}
+li{
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media (max-width:786px){
+    
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1rem;
+    }
+    .about-content{
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left:0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5rem;
+    }
+    p{
+        width:95%;
+    }
+
+}
